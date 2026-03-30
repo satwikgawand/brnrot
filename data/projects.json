@@ -8,8 +8,21 @@
     "category": "npc-rehab",
     "status": "shipped",
     "url": "https://touchgrass.brnrot.fun",
-    "github": "https://github.com/satwikgawand/touch-grass",
+    "github": "https://github.com/satwikgawand/touchgrass",
     "vibe": "grass-touching-era",
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "brnrot",
+    "name": "BRNROT.FUN 🧠",
+    "tagline": "building stupid shit that actually helps (sometimes)",
+    "description": "home of the chronically online trying to heal. a collection of weird little tools nobody asked for 💀",
+    "creatorNote": "Made this because I kept building stuff and needed somewhere to put it. chaos ensued. no regrets ✨",
+    "category": "chaos",
+    "status": "shipped",
+    "url": "https://brnrot.fun",
+    "github": "https://github.com/satwikgawand/brnrot",
+    "vibe": "main-character-energy",
     "addedDate": "2026-03-31"
   }
 ]
