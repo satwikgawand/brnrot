@@ -1,23 +1,23 @@
 const STATUS_STYLES = {
-  live: {
+  shipped: {
     badge: 'bg-lime-400/15 text-lime-400 border-lime-400/30',
     dot: 'bg-lime-400',
-    label: 'live',
+    label: 'shipped',
   },
-  building: {
+  cooking: {
     badge: 'bg-amber-400/15 text-amber-400 border-amber-400/30',
     dot: 'bg-amber-400',
-    label: 'building',
+    label: 'cooking',
   },
-  idea: {
+  ideation: {
     badge: 'bg-gray-500/15 text-gray-500 border-gray-500/30',
     dot: 'bg-gray-500',
-    label: 'idea',
+    label: 'still thinking',
   },
 }
 
 const CATEGORY_STYLES = {
-  productivity: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
+  'npc-rehab': 'bg-lime-500/10 text-lime-400 border-lime-500/20',
   chaos: 'bg-red-500/10 text-red-400 border-red-500/20',
   tool: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
   game: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
@@ -25,9 +25,9 @@ const CATEGORY_STYLES = {
 }
 
 export default function ProjectCard({ project }) {
-  const status = STATUS_STYLES[project.status] || STATUS_STYLES.idea
+  const status = STATUS_STYLES[project.status] || STATUS_STYLES.ideation
   const categoryStyle = CATEGORY_STYLES[project.category] || CATEGORY_STYLES.other
-  const isIdea = project.status === 'idea'
+  const isIdea = project.status === 'ideation'
 
   return (
     <article
@@ -62,11 +62,11 @@ export default function ProjectCard({ project }) {
       {/* Status + Category */}
       <div className="flex items-center gap-2 mb-3">
         <span className={`inline-flex items-center gap-1.5 font-mono text-xs px-2 py-0.5 rounded border ${status.badge}`}>
-          <span className={`w-1.5 h-1.5 rounded-full ${status.dot} ${project.status === 'live' ? 'animate-pulse' : ''}`} />
+          <span className={`w-1.5 h-1.5 rounded-full ${status.dot} ${project.status === 'shipped' ? 'animate-pulse' : ''}`} />
           {status.label}
         </span>
         <span className={`font-mono text-xs px-2 py-0.5 rounded border ${categoryStyle}`}>
-          {project.category}
+          #{project.category}
         </span>
       </div>
 
@@ -80,17 +80,8 @@ export default function ProjectCard({ project }) {
         {project.creatorNote}
       </p>
 
-      {/* Vanity stat */}
-      {project.vanityStat && (
-        <div className="mt-4 font-mono text-xs text-gray-600">
-          <span className="text-lime-400/70">{project.vanityStat.value}</span>
-          {' '}
-          {project.vanityStat.label}
-        </div>
-      )}
-
       {/* CTA */}
-      {project.status === 'live' && project.url && (
+      {project.status === 'shipped' && project.url && (
         <a
           href={project.url}
           target="_blank"

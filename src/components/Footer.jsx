@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-[#1e1e1e] mt-8">
       <div className="max-w-4xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <span className="font-mono text-xs text-gray-700">
-          built with chaos. no regrets.
+          built with chaos. no regrets. 💀
         </span>
         <a
           href="https://github.com/satwikgawand"
