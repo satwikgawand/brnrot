@@ -1,0 +1,18 @@
+[
+  {
+    "id": "touch-grass",
+    "name": "Touch Grass",
+    "tagline": "Your daily side quest. No excuses.",
+    "description": "A daily challenge app that breaks you out of your NPC routine by assigning one random quest per day.",
+    "creatorNote": "Built this because I kept saying I'd do something different and never did.",
+    "category": "productivity",
+    "status": "live",
+    "url": "https://touchgrass.brnrot.fun",
+    "github": "https://github.com/satwikgawand/touch-grass",
+    "vanityStat": {
+      "value": "2.3k",
+      "label": "NPCs touched grass"
+    },
+    "addedDate": "2026-03-31"
+  }
+]
