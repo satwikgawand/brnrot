@@ -21,6 +21,9 @@ const CATEGORY_STYLES = {
   chaos: 'bg-red-500/10 text-red-400 border-red-500/20',
   tool: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
   game: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
+  education: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20',
+  creativity: 'bg-fuchsia-500/10 text-fuchsia-400 border-fuchsia-500/20',
+  'dev tool': 'bg-orange-500/10 text-orange-400 border-orange-500/20',
   other: 'bg-gray-500/10 text-gray-400 border-gray-500/20',
 }
 

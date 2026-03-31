@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 
 const STATUS_ORDER = { live: 0, building: 1, idea: 2 }
 
-const ALL_CATEGORIES = ['all', 'productivity', 'tool', 'game', 'chaos', 'other']
+const ALL_CATEGORIES = ['all', 'productivity', 'education', 'creativity', 'dev tool', 'tool', 'game', 'chaos', 'other']
 const ALL_STATUSES = ['all', 'live', 'building', 'idea']
 
 export default function ProjectGrid({ projects }) {

@@ -9,10 +9,67 @@
     "status": "live",
     "url": "https://touchgrass.brnrot.fun",
     "github": "https://github.com/satwikgawand/touch-grass",
-    "vanityStat": {
-      "value": "2.3k",
-      "label": "NPCs touched grass"
-    },
+    "vanityStat": { "value": "2.3k", "label": "NPCs touched grass" },
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "algorizz",
+    "name": "algorizz",
+    "tagline": "DSA but make it brainrot.",
+    "description": "Algorithm visualizer with chaotic step-by-step commentary. learn without wanting to quit.",
+    "creatorNote": "Cooking up a way to make DSA actually stick. no more dry textbook energy.",
+    "category": "education",
+    "status": "building",
+    "url": "https://algorizz.brnrot.fun",
+    "github": "https://github.com/satwikgawand/algorizz",
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "pixeldump",
+    "name": "pixeldump",
+    "tagline": "pixel art for people with too much time.",
+    "description": "Simple pixel art editor with brainrot colour palettes and chaotic brushes.",
+    "creatorNote": "Wanted a pixel art tool that didn't take itself seriously.",
+    "category": "creativity",
+    "status": "idea",
+    "url": "https://pixeldump.brnrot.fun",
+    "github": "https://github.com/satwikgawand/pixeldump",
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "werk",
+    "name": "werk",
+    "tagline": "a todo list for people who hate todo lists.",
+    "description": "Chaotic task manager with anxiety meters and avoidance tracking. get stuff done or don't.",
+    "creatorNote": "Because traditional productivity tools give NPC energy.",
+    "category": "productivity",
+    "status": "idea",
+    "url": "https://werk.brnrot.fun",
+    "github": "https://github.com/satwikgawand/werk",
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "gitrekt",
+    "name": "git rekt",
+    "tagline": "roast my code, frfr.",
+    "description": "CLI tool that gives brainrot feedback on your code. no cap, only roasts.",
+    "creatorNote": "GitHub Copilot but make it roast you instead of helping you.",
+    "category": "dev tool",
+    "status": "idea",
+    "url": "https://gitrekt.brnrot.fun",
+    "github": "https://github.com/satwikgawand/git-rekt",
+    "addedDate": "2026-03-31"
+  },
+  {
+    "id": "pepperd",
+    "name": "pepperd",
+    "tagline": "research papers but make them readable.",
+    "description": "Visualization tool for academic papers with brainrot summaries and interactive diagrams.",
+    "creatorNote": "Making academia accessible to people who refuse to read 40-page PDFs.",
+    "category": "education",
+    "status": "idea",
+    "url": "https://pepperd.brnrot.fun",
+    "github": "https://github.com/satwikgawand/pepperd",
     "addedDate": "2026-03-31"
   }
 ]
