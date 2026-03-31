@@ -16,14 +16,14 @@
   {
     "id": "touch-grass",
     "name": "Touch Grass",
-    "emoji": "🍃",
+    "emoji": "🌿",
     "tagline": "Your daily side quest. No excuses.",
     "description": "A daily challenge app that breaks you out of your NPC routine by assigning one random quest per day.",
     "creatorNote": "Built this because I kept saying I'd do something different and never did.",
     "category": "productivity",
     "status": "shipped",
     "url": "https://touchgrass.brnrot.fun",
-    "github": "https://github.com/satwikgawand/touch-grass",
+    "github": "https://github.com/satwikgawand/touchgrass",
     "vanityStat": { "value": "2.3k", "label": "NPCs touched grass" },
     "addedDate": "2026-03-31"
   },
@@ -76,7 +76,7 @@
     "category": "dev tool",
     "status": "ideation",
     "url": "https://gitrekt.brnrot.fun",
-    "github": "https://github.com/satwikgawand/git-rekt",
+    "github": "https://github.com/satwikgawand/gitrekt",
     "addedDate": "2026-03-31"
   },
   {
