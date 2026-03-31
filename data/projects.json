@@ -1,7 +1,8 @@
 [
   {
     "id": "brnrot",
-    "name": "BRNROT.FUN 🧠",
+    "name": "BRNROT.FUN",
+    "emoji": "🧠",
     "tagline": "building stupid shit that actually helps (sometimes)",
     "description": "home of the chronically online trying to heal. a collection of weird little tools nobody asked for 💀",
     "creatorNote": "Made this because I kept building stuff and needed somewhere to put it. chaos ensued. no regrets ✨",
@@ -15,6 +16,7 @@
   {
     "id": "touch-grass",
     "name": "Touch Grass",
+    "emoji": "🍃",
     "tagline": "Your daily side quest. No excuses.",
     "description": "A daily challenge app that breaks you out of your NPC routine by assigning one random quest per day.",
     "creatorNote": "Built this because I kept saying I'd do something different and never did.",
@@ -27,19 +29,21 @@
   },
   {
     "id": "algorizz",
-    "name": "algorizz",
+    "name": "Algorizz",
+    "emoji": "⚡",
     "tagline": "DSA but make it brainrot.",
     "description": "Algorithm visualizer with chaotic step-by-step commentary. learn without wanting to quit.",
     "creatorNote": "Cooking up a way to make DSA actually stick. no more dry textbook energy.",
     "category": "education",
-    "status": "cooking",
+    "status": "shipped",
     "url": "https://algorizz.brnrot.fun",
     "github": "https://github.com/satwikgawand/algorizz",
     "addedDate": "2026-03-31"
   },
   {
     "id": "pixeldump",
-    "name": "pixeldump",
+    "name": "Pixeldump",
+    "emoji": "🎨",
     "tagline": "pixel art for people with too much time.",
     "description": "Simple pixel art editor with brainrot colour palettes and chaotic brushes.",
     "creatorNote": "Wanted a pixel art tool that didn't take itself seriously.",
@@ -51,7 +55,8 @@
   },
   {
     "id": "werk",
-    "name": "werk",
+    "name": "Werk",
+    "emoji": "✅",
     "tagline": "a todo list for people who hate todo lists.",
     "description": "Chaotic task manager with anxiety meters and avoidance tracking. get stuff done or don't.",
     "creatorNote": "Because traditional productivity tools give NPC energy.",
@@ -63,7 +68,8 @@
   },
   {
     "id": "gitrekt",
-    "name": "git rekt",
+    "name": "Git Rekt",
+    "emoji": "💀",
     "tagline": "roast my code, frfr.",
     "description": "CLI tool that gives brainrot feedback on your code. no cap, only roasts.",
     "creatorNote": "GitHub Copilot but make it roast you instead of helping you.",
@@ -75,7 +81,8 @@
   },
   {
     "id": "pepperd",
-    "name": "pepperd",
+    "name": "Pepperd",
+    "emoji": "📄",
     "tagline": "research papers but make them readable.",
     "description": "Visualization tool for academic papers with brainrot summaries and interactive diagrams.",
     "creatorNote": "Making academia accessible to people who refuse to read 40-page PDFs.",

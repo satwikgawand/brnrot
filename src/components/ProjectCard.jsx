@@ -41,9 +41,14 @@ export default function ProjectCard({ project }) {
     >
       {/* Header row */}
       <div className="flex items-start justify-between gap-3 mb-3">
-        <h2 className="text-white font-semibold text-lg leading-snug">
-          {project.name}
-        </h2>
+        <div className="flex items-center gap-2 min-w-0">
+          {project.emoji && (
+            <span className="text-xl shrink-0" aria-hidden="true">{project.emoji}</span>
+          )}
+          <h2 className="text-white font-semibold text-lg leading-snug">
+            {project.name}
+          </h2>
+        </div>
         <div className="flex items-center gap-2 shrink-0">
           {project.github && (
             <a
