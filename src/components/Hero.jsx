@@ -10,7 +10,7 @@ export default function Hero() {
     `${total} project${total !== 1 ? 's' : ''}`,
     `${live} shipped`,
     building > 0 ? `${building} cooking` : null,
-    idea > 0 ? `probably ${idea} abandoned` : null,
+    idea > 0 ? `${idea} in delulu` : null,
   ].filter(Boolean)
 
   return (
@@ -22,17 +22,15 @@ export default function Hero() {
       </div>
 
       <h1 className="font-mono text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight">
-        building stupid shit that actually helps<br className="hidden sm:block" /> (sometimes) 🧠⚡
+        unleashing my unicorn energy 🦄
       </h1>
 
       <div className="mt-6 max-w-xl space-y-2 text-gray-400 text-base leading-relaxed">
         <p>
-          home of the chronically online trying to heal. just a person building weird little tools
-          and putting them on the internet. some are useful. some are not. all were worth making 💀
+          building weird tools. some help, most don't. all cooked with delulu energy 🔥
         </p>
         <p>
-          no vc funding, no growth hacking, no linkedin posts about "learnings."
-          just shipping stuff and seeing what sticks. current vibe: grass-touching era 🌿
+          no vc rizz, no growth hacks, just shipping chaos powered by caffeine. ☕
         </p>
       </div>
 
