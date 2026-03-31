@@ -22,12 +22,12 @@ export default function Hero() {
       </div>
 
       <h1 className="font-mono text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight">
-        unleashing my unicorn energy 🦄
+        unleashing unicorn energy 🦄
       </h1>
 
       <div className="mt-6 max-w-xl space-y-2 text-gray-400 text-base leading-relaxed">
         <p>
-          building weird tools. some help, most don't. all cooked with delulu energy 🔥
+          building weird tools. some help. all cooked with delulu energy 🔥
         </p>
         <p>
           no vc rizz, no growth hacks, just shipping chaos powered by caffeine. ☕
